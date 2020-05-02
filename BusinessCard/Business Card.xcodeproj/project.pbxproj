@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3098A5BF242AE5FA0019FCB0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098A5BE242AE5FA0019FCB0 /* InfoView.swift */; };
+		30B7A5892429AF3D000BA301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7A5882429AF3D000BA301 /* AppDelegate.swift */; };
+		30B7A58B2429AF3D000BA301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7A58A2429AF3D000BA301 /* SceneDelegate.swift */; };
+		30B7A58D2429AF3D000BA301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7A58C2429AF3D000BA301 /* ContentView.swift */; };
+		30B7A58F2429AF40000BA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B7A58E2429AF40000BA301 /* Assets.xcassets */; };
+		30B7A5922429AF40000BA301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B7A5912429AF40000BA301 /* Preview Assets.xcassets */; };
+		30B7A5952429AF40000BA301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B7A5932429AF40000BA301 /* LaunchScreen.storyboard */; };
+		30B7A5A02429B339000BA301 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30B7A59F2429B339000BA301 /* Pacifico-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3098A5BE242AE5FA0019FCB0 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		30B7A5852429AF3D000BA301 /* Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B7A5882429AF3D000BA301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30B7A58A2429AF3D000BA301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30B7A58C2429AF3D000BA301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30B7A58E2429AF40000BA301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B7A5912429AF40000BA301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30B7A5942429AF40000BA301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B7A5962429AF40000BA301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B7A59F2429B339000BA301 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico,Paprika/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B7A5822429AF3D000BA301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B7A57C2429AF3D000BA301 = {
+			isa = PBXGroup;
+			children = (
+				30B7A5872429AF3D000BA301 /* Business Card */,
+				30B7A5862429AF3D000BA301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30B7A5862429AF3D000BA301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B7A5852429AF3D000BA301 /* Business Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B7A5872429AF3D000BA301 /* Business Card */ = {
+			isa = PBXGroup;
+			children = (
+				30B7A59D2429B2D5000BA301 /* Fonts */,
+				30B7A5882429AF3D000BA301 /* AppDelegate.swift */,
+				30B7A58A2429AF3D000BA301 /* SceneDelegate.swift */,
+				30B7A58C2429AF3D000BA301 /* ContentView.swift */,
+				3098A5BE242AE5FA0019FCB0 /* InfoView.swift */,
+				30B7A58E2429AF40000BA301 /* Assets.xcassets */,
+				30B7A5932429AF40000BA301 /* LaunchScreen.storyboard */,
+				30B7A5962429AF40000BA301 /* Info.plist */,
+				30B7A5902429AF40000BA301 /* Preview Content */,
+			);
+			path = "Business Card";
+			sourceTree = "<group>";
+		};
+		30B7A5902429AF40000BA301 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30B7A5912429AF40000BA301 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30B7A59D2429B2D5000BA301 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30B7A59F2429B339000BA301 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B7A5842429AF3D000BA301 /* Business Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B7A5992429AF40000BA301 /* Build configuration list for PBXNativeTarget "Business Card" */;
+			buildPhases = (
+				30B7A5812429AF3D000BA301 /* Sources */,
+				30B7A5822429AF3D000BA301 /* Frameworks */,
+				30B7A5832429AF3D000BA301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Business Card";
+			productName = "Business Card";
+			productReference = 30B7A5852429AF3D000BA301 /* Business Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B7A57D2429AF3D000BA301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dot.sandbox;
+				TargetAttributes = {
+					30B7A5842429AF3D000BA301 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30B7A5802429AF3D000BA301 /* Build configuration list for PBXProject "Business Card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B7A57C2429AF3D000BA301;
+			productRefGroup = 30B7A5862429AF3D000BA301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B7A5842429AF3D000BA301 /* Business Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B7A5832429AF3D000BA301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B7A5952429AF40000BA301 /* LaunchScreen.storyboard in Resources */,
+				30B7A5A02429B339000BA301 /* Pacifico-Regular.ttf in Resources */,
+				30B7A5922429AF40000BA301 /* Preview Assets.xcassets in Resources */,
+				30B7A58F2429AF40000BA301 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B7A5812429AF3D000BA301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3098A5BF242AE5FA0019FCB0 /* InfoView.swift in Sources */,
+				30B7A5892429AF3D000BA301 /* AppDelegate.swift in Sources */,
+				30B7A58B2429AF3D000BA301 /* SceneDelegate.swift in Sources */,
+				30B7A58D2429AF3D000BA301 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30B7A5932429AF40000BA301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B7A5942429AF40000BA301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B7A5972429AF40000BA301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30B7A5982429AF40000BA301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B7A59A2429AF40000BA301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Business Card/Preview Content\"";
+				DEVELOPMENT_TEAM = NNY3LXV745;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Business Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fimi.Business-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30B7A59B2429AF40000BA301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Business Card/Preview Content\"";
+				DEVELOPMENT_TEAM = NNY3LXV745;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Business Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fimi.Business-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B7A5802429AF3D000BA301 /* Build configuration list for PBXProject "Business Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B7A5972429AF40000BA301 /* Debug */,
+				30B7A5982429AF40000BA301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B7A5992429AF40000BA301 /* Build configuration list for PBXNativeTarget "Business Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B7A59A2429AF40000BA301 /* Debug */,
+				30B7A59B2429AF40000BA301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30B7A57D2429AF3D000BA301 /* Project object */;
+}
